@@ -14,7 +14,7 @@ env:
     playbook: centos-7-test.yml
   - distribution: ubuntu
     version: 16.04
-    init: /usr/lib/systemd/systemd
+    init: /lib/systemd/systemd
     run_opts: "--privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro"
     playbook: test.yml
   - distribution: ubuntu
