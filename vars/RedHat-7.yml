@@ -1,6 +1,7 @@
 ---
 __mysql_daemon: mariadb
 __mysql_packages:
+  - redhat-lsb-core
   - mariadb
   - mariadb-server
   - mariadb-libs
